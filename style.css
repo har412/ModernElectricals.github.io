@@ -270,7 +270,7 @@ footer p{
     text-align: center;
 }
 /* ******************************Media Query****************************************** */
-@media only screen and (max-width: 400px) 
+@media only screen and (max-width: 600px) 
 {
 /* *******************************phone navbar************************** */
 #navbar{
