@@ -254,7 +254,7 @@ form{
 position:absolute;
 top: 1280px;
 left:0px;
-background: url(../contact.jpg
+background: url(../contact.jpg);
 width:100%;
 height: 260px;
 z-index: -1;
