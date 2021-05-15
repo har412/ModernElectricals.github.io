@@ -295,7 +295,7 @@ footer p{
 
 ul{
     /* font-size: 10px; */
-    right: 40px;
+    right: 53px;
     top: 32px;
 }
 
@@ -305,14 +305,14 @@ ul{
     top:0px;
     left:0px;
     /* background: url(/images/1.jpg); */
-    width:754px;
+    width:431px;
     height: 442px;
     z-index: -1;
     opacity:.8;
     }
     #home{
         color:black;
-        width: 754px;
+        width: 431px;
         font-family: 'Ubuntu', sans-serif;
         display: flex;
         flex-direction: column;
@@ -321,13 +321,21 @@ ul{
         align-items: center;
     }
     #services{
-      width: 754px;
+      width: 431px;
         display: flex;
         flex-direction: column;
-        height: 500px;
+        height: 488px;
         /* background-color: rgba(0, 0, 0,.7); */
         
     }
+    .services{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        /* flex-wrap: wrap; */
+        text-align: center;
+    overflow: hidden;}
+
     .im_ser{
         height: 120px;
         width: 80%;
@@ -335,11 +343,11 @@ ul{
     .box{
         /* border:3px solid red; */
         box-sizing: border-box;
-        margin: 22px;
+        margin: 6px;
         padding :3px;
        width: 30%;
        height: 406px;
-       border-radius: 50px;
+       border-radius: 30px;
        text-align: center;
        justify-content: center;
        background-color: rgba(202, 200, 163, 0.7);
@@ -348,7 +356,7 @@ ul{
    #testimonials{
     display: flex;
     flex-direction: column;
-width: 754px;
+width: 431px;
 height: 399px;
 }
 #testimonials::before{
@@ -357,7 +365,7 @@ height: 399px;
  top:950px;
  left:0px;
  /* background: url(/images/testimonials.jpg); */
- width:754px;
+ width:431px;
  height: 410px;
  z-index: -1;
  opacity:.3;
@@ -412,4 +420,24 @@ footer{
     font-weight: bold;
     transition:all .5s ease 0ms ;
 
+}
+h1,h2{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
+.client{
+    /* border: 2px solid red; */
+    padding:8px;
+    margin:8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.t_img{
+    height: 149px;
+    width: 155px;
+    border-radius: 100px;
+}
 }
